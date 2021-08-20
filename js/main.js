@@ -41,7 +41,7 @@ $(window).on('load', function() {
 	----------------------------------- */
 	$('body').append('<audio loop autoplay volume="0" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
     	var audio = document.getElementById("audio-player");
-    	audio.volume = 0.2;
+    	audio.volume = 0.6;
 	
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});

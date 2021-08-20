@@ -39,13 +39,13 @@ $(window).on('load', function() {
 	/* -----------------------------------
 			  2. Sound Setup
 	----------------------------------- */
-	$('body').append('<audio loop autoplay volume="0" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
+	$('body').append('<audio loop autoplay volume="0" id="audio-player"><source src="img/indra.mp3" type="audio/mpeg"></audio>');
     	var audio = document.getElementById("audio-player");
-    	audio.volume = 0.6;
+    	audio.volume = 0.2;
 	
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});
-		$('body').addClass("audio-on");
+		$('body').addClass("audio-off");
 		if ($('body').hasClass('audio-off')) {
         	$('body').removeClass('audio-on');
 		} 
